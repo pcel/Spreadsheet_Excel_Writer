@@ -33,15 +33,15 @@
     ],
     "license": "LGPL",
     "minimum-stability": "dev",
-    "name": "pear/spreadsheet_excel_writer",
+    "name": "pcel/spreadsheet_excel_writer",
     "support": {
         "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Spreadsheet_Excel_Writer",
         "source": "https://github.com/pear/Spreadsheet_Excel_Writer"
     },
     "type": "library",
     "require": {
-        "pear/pear": "*",
-        "pear/ole": "*",
+        "pear/pear-core-minimal": "v1.10.1",
+        "pear/ole": "dev-master",
         "php": ">=5.3.3"
     },
     "require-dev": {
